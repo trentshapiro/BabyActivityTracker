@@ -4,7 +4,7 @@
 
 ## Requirements
 1. Raspberry Pi Pico W
-2. Google App Credentials (See 
+2. Google App Credentials
 3. Some buttons/input devices
 4. Internet connection
 
