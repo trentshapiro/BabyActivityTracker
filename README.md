@@ -20,5 +20,6 @@
 ## Customization
 1. Setup to write to the worksheet set in secrets.py
 2. Change individual sheet names in main.py lines 61-70
-3. Change pins used on Pico line 56
+3. Change pins used on Pico in main.py line 56
 4. Supports as many pins as you'd like, only 8 are used by default: pins 14-23
+5. To save processing potentially large columns, store `=COUNTA(A:A)` in a specific cell of your sheet, and point to it in main.py line 34
