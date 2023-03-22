@@ -1,5 +1,5 @@
 # BabyActivityTracker
- Tracks activities of a baby from Raspberry Pi Pico W to Google Sheets using micropython.\n
+ Tracks activities of a baby from Raspberry Pi Pico W to Google Sheets using micropython.<br />
  DIY version of Talli Baby Tracker
 
 
