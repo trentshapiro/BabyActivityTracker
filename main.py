@@ -32,7 +32,7 @@ def write_to_sheet(workbook_id, sheet_name):
 
     # get cells max
     r = gs.get_cells(workbook_id, f'{sheet_name}!I2')
-    next_cell = int(r)+2
+    next_cell = int(r)+1
     next_cell_range = f'{sheet_name}!A{next_cell}'
     # write to next cell
     r = gs.write_cells(message, workbook_id, next_cell_range)
